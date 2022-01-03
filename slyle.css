@@ -8,7 +8,7 @@ h1{
 .orange-color{
     color: orange;
 }
-section{
+.flexble{
     display: flex;
 }
 div{
@@ -47,4 +47,39 @@ border-radius: 20px;
     background-image: url(images/dream-bg.png);
     background-repeat: no-repeat;
     background-position: right;
+}
+.last-sec{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+.flex2{
+    display: flex;
+    width: 80%;
+    padding-bottom: 100px;
+  padding-right: 5px;
+   
+}
+.last-flex{
+   box-shadow: 10px 10px 40px gray;
+   margin-left: 8%;
+   border-radius: 20px;
+   
+}
+.exp{
+    padding-left: 40px;
+}
+#border1{
+    border-left: 7px solid;
+    border-color: indianred;
+
+}
+#border2{
+    border-left: 7px solid;
+    border-color: indigo;
+
+}
+footer p{
+   text-align: center;
+    color: indigo;
 }
